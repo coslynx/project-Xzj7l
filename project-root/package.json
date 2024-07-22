@@ -1,0 +1,49 @@
+{
+  "name": "MusicBot",
+  "version": "1.0.0",
+  "description": "Discord music bot with advanced features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "webpack --mode production",
+    "lint": "stylelint \"src/**/*.{css,scss}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/MusicBot.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/MusicBot/issues"
+  },
+  "homepage": "https://github.com/your-username/MusicBot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ffmpeg": "^0.2.5",
+    "mongoose": "^6.8.3",
+    "node-fetch": "^3.3.0",
+    "node-spotify-api": "^5.0.2",
+    "node-soundcloud": "^5.1.0",
+    "pg": "^8.8.0",
+    "promise-retry": "^1.0.5",
+    "react": "^18.2.0",
+    "ytdl-core": "^5.1.2",
+    "ytsr": "^2.3.3",
+    "winston": "^3.8.2",
+    "webpack": "^5.75.0",
+    "chalk": "^5.2.0",
+    "moment": "^2.29.4",
+    "lyrics-finder": "^2.2.1",
+    "genius-lyrics-api": "^2.2.1",
+    "soundcloud-api": "^1.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "stylelint": "^14.16.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
